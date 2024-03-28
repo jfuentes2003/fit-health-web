@@ -123,3 +123,54 @@ img#img200 {
 .custom-button:hover {
     background-color: #272626; ; /* Change button background color on hover */
 }
+
+
+
+/*This is for the Plans Page*/
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+/*Color of the boxes */
+.plan {
+    width: 30%;
+    background-color: #262424;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Title inside the boxes*/
+.plan h3 {
+    color: #450202;   
+    background-color: #efebeb;
+
+}
+/*subtitles inside the boxes*/
+.plan p {
+    color: #d8d1d1;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin-bottom: 5px;
+}
+
+
+/*Gym Policy*/
+/* Styles for Gym Policy section */
+.gym-policy {
+    background-color: #3d3a3a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
