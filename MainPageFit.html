@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <script src="pageconfig.js" defer></script>
+
     <link rel="stylesheet" href="fit.health.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +11,37 @@
 
     <style>
         body {
-            background-image: url(backgpic.jpg); /* Replace 'background-image.jpg' with the path to your image */
+            background-image: url(background.png); /* Replace 'background-image.jpg' with the path to your image */
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed; /* This keeps the background image fixed as the user scrolls */
         }
+        .image-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Change the background color here */
+            color: white; /* Change the text color */
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+            opacity: 0; /* Initially hidden */
+            transition: opacity 0.3s ease; /* Smooth transition */
+        }
+        .image-with-title:hover .image-title {
+            opacity: 1; /* Display on hover */
+        }
     </style>
+     <center>
+        <img src="ttlogo.png" alt="logo" id="img200">
+    </center>
 </head>
 
 <body>
     <header>
-        <h1>Welcome to Our Fitness Page</h1>
+        <h1>SueFit Center</h1>
         <p>Your one-stop destination for fitness tips and workouts</p>
     </header>
 
@@ -32,15 +55,128 @@
     <main>
         <section>
             <h2>About Us</h2>
-            <p>We are a launching brand, aim to encourage everyone to achieve their fitness goals</p>
+            <p>At SueFit Center, we pride ourselves on being a premier fitness center with a mission to empower individuals to achieve their fitness aspirations. Founded by Josue Fuentes, a passionate fitness enthusiast who believes in giving back the support he received on his own journey, we are committed to providing unparalleled guidance and encouragement to all our members. Our state-of-the-art facility boasts top-notch equipment and is staffed by certified trainers dedicated to assisting you every step of the way.</p>
         </section>
 
+        <section>
+            <h2>Our Gym</h2>
+            <p>Nestled in the bustling heart of the city, [Gym Name] is more than just a gym - it's a community hub where fitness enthusiasts of all levels come together to pursue their goals. Our gym offers a diverse range of amenities and services tailored to cater to your specific fitness needs. Whether you're just starting out or a seasoned athlete, our facility has something for everyone. From cutting-edge equipment to personalized training programs, we provide the resources and support necessary for you to thrive on your fitness journey.Located in the heart of the city, our gym offers a wide range of amenities and services to meet your fitness needs. Whether you're a beginner or a seasoned athlete, we have something for everyone:</p>
+            <section>
+                
+                <div class="image-container">
+                    <div class="image-pair">
+                        <div class="image-with-title">
+                            <img src="mfe.jpg" alt="Modern fitness equipment">
+                            <div class="image-title">
+                                <p id="MFE">Modern fitness equipment</p>
+                                 <p id="PP">Welcome to our state-of-the-art gym, where we boast an impressive array of modern fitness equipment designed to cater to every aspect of your workout routine. Our facility is equipped with the latest advancements in fitness technology, ensuring that you have access to the most effective and efficient tools to achieve your health and fitness goals.
+                                Among our offerings are cutting-edge elliptical machines, engineered to provide a low-impact yet highly effective cardiovascular workout. These machines feature adjustable resistance levels and customizable programs to accommodate users of all fitness levels, making them ideal for individuals looking to improve their endurance, burn calories, and enhance overall cardiovascular health.
+                                The ambiance suggests an inviting atmosphere, inviting fitness enthusiasts of all levels to engage in their workout routines with ease and comfort. The lighting highlights the contours of the equipment, accentuating their modern aesthetics and emphasizing the commitment to quality and excellence in fitness provision.
+                                As the cornerstone of any contemporary fitness center, these modern fitness equipment pieces represent more than just tools for physical activity—they embody a dedication to fostering wellness, vitality, and personal achievement.</p>
+                            </div>
+                        </div>
+
+                        <div class="image-with-title">
+                            <img src="group_exercise.jpg" alt="Group exercise classes">
+                            <div class="image-title">
+                                <p id="GE">Group exercise classes</p>
+                                 <p id="GP">Step into our group exercise classes for a transformative journey like no other. Our vibrant atmosphere fosters camaraderie beyond workouts. We create a supportive community where every member thrives. In our classes, you'll find a unified force, cheering each other towards common fitness goals. Whether seasoned athletes or beginners, all feel valued and encouraged in our inclusive environment.
+                                 Imagine embarking on your fitness journey surrounded by like-minded individuals, pushing boundaries, celebrating victories, and forming bonds that extend beyond the gym walls. Our certified instructors serve as mentors and motivators, guiding each session with expertise and empathy. From high-intensity interval training to calming yoga flows, our diverse classes cater to all preferences and fitness levels.
+                                 Join us to experience the power of community-driven fitness. Together, we'll sweat, laugh, and grow stronger, transcending limits through unity.</p>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="image-pair">
+                        <div class="image-with-title">
+                            <img src="personal_training.jpg" alt="Personal training sessions">
+                            <div class="image-title">
+                                <p id="PT">Personal training sessions </p>
+                                <p id="PS">Step into our personalized training sessions for a journey of self-discovery and transformation. Our studio offers more than workouts; we provide unwavering support and tailored guidance to your unique goals. Each session nurtures your aspirations, with dedicated trainers crafting bespoke plans to maximize your potential.
+                                Whether aiming for weight loss, muscle gain, or overall fitness, our team empowers you every step of the way. We believe in your ability to succeed, ensuring you feel encouraged and motivated throughout.
+                                In our sessions, you're not just a client  you're a valued member of our fitness family. Together, we unlock your potential and celebrate victories, big or small. Experience the difference personalized support makes. Join us on this transformative journey where your goals become our shared mission. Success knows no bounds with us.</p>
+                                
+                              </div>
+                        </div>
+                        <div class="image-with-title">
+                            <img src="cardio_area.jpg" alt="Cardio area">
+                            <div class="image-title">
+                                <p id="CA">Cardio area</p>
+                                <p id="CP">Step into our cardio area and ignite your fitness journey with a range of equipment tailored to your needs. Our studio offers more than just machines; we provide a supportive environment where you can push your limits and achieve your cardio goals.    
+                                From elliptical machines to treadmills and beyond, our diverse array of equipment ensures there's something for everyone, whether you're aiming to improve endurance, burn calories, or enhance cardiovascular health.    
+                                Each visit to our cardio area promises an opportunity for growth and progress. Our supportive staff is on hand to assist you, offering guidance and encouragement as you strive for greatness.
+                                 Join us in our cardio area and experience the thrill of reaching new heights in your fitness journey. Let's work together to unlock your full potential and achieve remarkable results, one stride at a time.</p>
+
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="image-pair">
+                        <div class="image-with-title">
+                            <img src="weightlifting_area.jpg" alt="Weightlifting area">
+                            <div class="image-title">
+                                <p id="WA">Weightlifting Area</p>
+                                <p id="WP">Step into our weightlifting area and elevate your strength training experience with a diverse range of equipment designed to help you reach your fitness goals. Our facility goes beyond standard gym setups, offering a supportive environment where you can focus on building strength and achieving personal bests.Featuring essential equipment such as squat racks, deadlift platforms, and more, our space caters to lifters of all levels, whether you're a seasoned athlete or just starting your journey into strength training.
+                                Each session in our weightlifting area is an opportunity to challenge yourself and make progress under the guidance of our knowledgeable staff. We're here to support you every step of the way, providing tips, encouragement, and assistance to help you reach your full potential.
+                                Join us in the weightlifting area and experience the thrill of pushing your limits and achieving new heights in strength and fitness. Let's work together to sculpt a stronger, healthier you.</p>
+                            
+                            </div>
+                        </div>
+
+
+                        <div class="image-with-title">
+                            <img src="indoor_pool.jpg" alt="Indoor pool">
+                            <div class="image-title">
+                                <p id="It">Indoor Pool</p>
+                                <p id="IP">Dive into our indoor pool and immerse yourself in a world of aquatic fitness and relaxation. Beyond just swimming, our pool area offers a sanctuary where you can rejuvenate both body and mind.Whether you're looking to improve your strokes, increase endurance, or simply unwind, our indoor pool provides a serene environment for all aquatic enthusiasts. With crystal-clear waters and comfortable surroundings, it's the perfect space to escape the hustle and bustle of daily life.    
+                                From lap swimming to water aerobics, our pool accommodates a variety of activities suited to your fitness needs and preferences. Our experienced staff is on hand to offer guidance and support, ensuring a safe and enjoyable experience for swimmers of all levels.    
+                                Join us in the indoor pool and discover the joy of aquatic fitness. Let the soothing waters inspire you to achieve your fitness goals and find peace in the rhythm of your strokes.</p>
+                            
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="image-pair">
+                        <div class="image-with-title">
+                            <img src="sauna_steam_room.jpg" alt="Sauna and steam room">
+                            <div class="image-title">
+                                <p id="ST">Sauna & Steam Room</p>
+                                <p id="SP">Step into our sauna and steam room sanctuary, where relaxation and rejuvenation await. Nestled within our facility, these tranquil spaces offer a haven from the stresses of everyday life. In our sauna, experience the enveloping warmth that soothes tired muscles and promotes detoxification. Let the heat melt away tension as you unwind and recharge both body and mind.
+                                Meanwhile, in our steam room, surrender to the gentle embrace of steam as it purifies your skin and clears your airways. Feel your worries evaporate as you bask in the therapeutic mist, emerging refreshed and invigorated.    
+                                Both the sauna and steam room provide a holistic approach to well-being, promoting relaxation and stress relief while supporting overall health. Our attentive staff ensures a comfortable experience, guiding you through the benefits of each space.
+                                Step into our sauna and steam room, and embark on a journey of tranquility and renewal. Let the warmth envelop you as you discover the healing power of relaxation.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="image-with-title">
+                            <img src="nutritional_counseling.png" alt="Nutritional counseling">
+                            <div class="image-title">
+
+                                <p id="NT">Nutritional Counseling</p>
+                                <p id="NP">Embark on a journey towards optimal health and well-being with our nutritional counseling services. Beyond just diets, we offer personalized guidance tailored to your unique needs and goals, empowering you to make informed choices that nourish your body and soul. In our sessions, our experienced nutritionists take a holistic approach, considering factors such as dietary preferences, lifestyle, and health history. Together, we develop sustainable strategies to enhance your nutrition, whether you're seeking weight management, improved energy levels, or better overall health.
+                                Our supportive environment fosters accountability and motivation, ensuring you stay on track towards achieving your nutritional objectives. We believe in the transformative power of food and its impact on every aspect of your life.
+                                Join us for nutritional counseling and unlock the potential of a balanced, nourishing diet. Let us guide you on the path to greater vitality and wellness, one delicious meal at a time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section>
+            <center>
+                <!-- link to the google form -->
+                <a href="https://forms.gle/TNojM1gaN5jNTMTJA" target="_blank" class="custom-button">Pick Your Plan Here</a>
+            </center>
+        </section>
 
         <section>
             <h2>Contact Us</h2>
             <p>For inquiries and appointments, please contact us at:</p>
-            <p>Email: info@example.com</p>
-            <p>Phone: 123-456-7890</p>
+            <p>Email:suefitcenter@gmail.com</p>
+            <p>Phone: 202-340-6248</p>
         </section>
     </main>
 
