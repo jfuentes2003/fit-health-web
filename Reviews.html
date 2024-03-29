@@ -1,0 +1,154 @@
+Reviews.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="pageconfig.js" defer></script>
+    <link rel="stylesheet" href="fit.health.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fitness Page</title>
+
+
+    <style>
+        body {
+            background-image: url(background.png); /* Replace 'background-image.jpg' with the path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This keeps the background image fixed as the user scrolls */
+            font-family: Arial, sans-serif; /* Match the font-family */
+            color: white; /* Change the default text color */
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: rgb(54, 8, 8); /* Match the heading color */
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5); /* Change the background color */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.5); /* Change the background color */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white; /* Change the link color */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        .image-title {
+            background-color: rgba(0, 0, 0, 0.5); /* Change the background color */
+            color: white; /* Change the text color */
+            padding: 10px;
+            margin-top: -10px;
+            text-align: left;
+            opacity: 0; /* Initially hidden */
+            transition: opacity 0.3s ease; /* Smooth transition */
+        }
+        .image-with-title:hover .image-title {
+            opacity: 1; /* Display on hover */
+        }
+        .custom-button {
+            background-color: #e44232; /* Change the button background color */
+            color: white; /* Change the button text color */
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .review-section {
+            margin-top: 20px;
+        }
+        .review {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .reviewer-info {
+            font-style: italic;
+            color: #ccc;
+        }
+        .review-text {
+            margin-top: 10px;
+        }
+    </style>
+    <center>
+        <img src="ttlogo.png" alt="logo" id="img200">
+    </center>
+</head>
+
+<body>
+    <header>
+        <h1>SueFit Center</h1>
+        <p>Your one-stop destination for fitness tips and workouts</p>
+    </header>
+
+    <nav>
+        <a href="MainPageFit.html">Main Page</a>
+        <a href="eventscalendar.html">Events Calendar</a>
+        <a href="Plans.html">Plans</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Tips</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section>
+                <h2>Our Gym</h2>
+                <p>Nestled in the bustling heart of the city, SueFit Center is more than just a gym - it's a community hub where fitness enthusiasts of all levels come together to pursue their goals. Our gym offers a diverse range of amenities and services tailored to cater to your specific fitness needs. Whether you're just starting out or a seasoned athlete, our facility has something for everyone. From cutting-edge equipment to personalized training programs, we provide the resources and support necessary for you to thrive on your fitness journey.</p>
+            </section>
+
+            <section class="review-section">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <div class="reviewer-info">
+                        <p>Mark Nutter - 2 reviews - US - Rated 4 out of 5 stars - Mar 20, 2024</p>
+                    </div>
+                    <div class="review-text">
+                        <p>"I initially signed up for a two-year plan with automatic payments, and I must say, the services provided during that time were quite satisfactory. Upon reaching the end of my plan, I promptly communicated via email and phone that I wouldn't be renewing my membership. However, there seemed to be a misunderstanding, and automatic withdrawals continued from my bank account. Fortunately, I was able to rectify the situation, albeit with some effort.
+
+                            While my experience with the cancellation process wasn't as smooth as I hoped, I can attest to the quality of the gym itself. Despite the minor hiccup, I found the facilities to be well-maintained and the equipment up to par. However, I must acknowledge that there are other gyms like Planet Fitness that offer competitive rates and a wider range of amenities.
+                            
+                            Overall, I appreciated my time at the gym and the value it provided during my membership. While there were some challenges with the cancellation process, I believe they can be addressed with improved communication procedures. Despite my experience, I wouldn't hesitate to recommend the gym to others, as the quality of service and facilities are commendable."</p>
+                        <p>Date of experience: March 20, 2024</p>
+                    </div>
+                </div>
+
+                <section class="review-section">
+                    <div class="review">
+                        <div class="reviewer-info">
+                            <p>Emily Smith - 5 reviews - UK - Rated 5 out of 5 stars - Mar 25, 2024</p>
+                        </div>
+                        <div class="review-text">
+                            <p>I absolutely love SueFit Center! The staff is incredibly friendly and helpful, and the facilities are top-notch. I've been a member for over a year now, and I've seen significant improvements in my fitness level and overall well-being. The variety of classes and equipment available make it easy to stay motivated and engaged. Highly recommend it to anyone looking to kickstart their fitness journey!</p>
+                            <p>Date of experience: March 25, 2024</p>
+                        </div>
+                    </div>
+                
+                    <div class="review">
+                        <div class="reviewer-info">
+                            <p>John Doe - 3 reviews - Canada - Rated 4 out of 5 stars - Mar 27, 2024</p>
+                        </div>
+                        <div class="review-text">
+                            <p>SueFit Center provides a great environment for working out. The facilities are clean, and the staff is friendly. The only downside is that it can get crowded during peak hours, but overall, I've had a positive experience here. The variety of equipment and classes offered cater to all fitness levels.</p>
+                            <p>Date of experience: March 27, 2024</p>
+                        </div>
+                    </div>
+                
+                    <!-- Add more reviews in a similar structure -->
+                    <!-- Include review information within div.review -->
+                
+                </section>
+                
+
+            </section>
+
+                
